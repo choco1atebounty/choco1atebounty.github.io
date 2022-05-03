@@ -11,18 +11,12 @@ span{
     font-size: 40px;
     color: aqua;
 }
-background{
-    color: black;
-}
 .body-text{
     font-size: 40px; 
     color: #57ee90;
 }
 .footer-text{
     font-size: 20px
-}
-input type="Ваш вопрос"{
-    color: #282828;
 }
 h1{
     font-size: 60px;

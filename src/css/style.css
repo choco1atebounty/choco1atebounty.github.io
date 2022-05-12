@@ -69,7 +69,7 @@ float: left;
 .container_about_img{
     width: 100%;
     height: 300px;
-    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) 50% 0%/72px 4px no-repeat , url(../img/boy.png) center/199px 205px no-repeat;
+    background: url(../img/poloska.png) 50% 0%/72px 4px no-repeat , url(../img/boy.png) center/199px 205px no-repeat;
 }
 
 .container_about{
@@ -113,7 +113,7 @@ float: left;
 .container__ican{
     float: left;
     width: 100%;
-    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png)  50% 30%/72px 4px no-repeat , url(../img/kartfon.jpg) center/1920px 523px no-repeat;
+    background: url(../img/poloska.png)  50% 30%/72px 4px no-repeat , url(../img/kartfon.jpg) center/1920px 523px no-repeat;
 }
 
 .img_ican1{
@@ -193,7 +193,7 @@ float: left;
 .container__keys{
     float: left;
     width: 100%;
-    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) 50% 13%/72px 4px no-repeat;
+    background: url(../img/poloska.png) 50% 13%/72px 4px no-repeat;
 }
 
 .keyses h2{

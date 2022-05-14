@@ -83,7 +83,7 @@ float: left;
     font-weight: bold;
     text-transform: uppercase;
     color: #263244;
-    margin: 109px 448px 30px 448px;
+    padding: 109px 448px 30px 448px;
     
 }
 
@@ -222,38 +222,42 @@ float: left;
     padding-top: 20px;
 }
 
-.container__keys li{
+.text {
+    margin: 0px 0px 0px 380px;
+    color: #2c384a;
+}
+
+.text_p {
+    float: left;
+    width: 200px;
+    height: 70px;
+}
+
+.text_p h4{
+    font-size: 20px;
+    font-weight: bold;    
+    text-transform: uppercase;
+    color: #263244;
+    width: 200px;
+}
+
+
+.text_h5 h4{
     font-size: 20px;
     font-weight: bold;    
     text-transform: uppercase;
     color: #263244;
 }
 
-.text {
-    float: left;
-    margin: 0px 0px 0px 380px;
-    color: #2c384a;
-}
-
-.text p{
+.text_h5 p{
     font-size: 10px;
     font-weight: bold;    
     text-transform: uppercase;
     color: #263244;
-    width: 180px;
+    width: 1150px;
 }
 
-.keyses h5{
-    float: left;
-    font-size: 10px;
-    font-weight: bold;    
-    text-transform: uppercase;
-    color: #263244;
-    width: 900px;
-    
-}
-
-.container__keys input{
+.text input{
     height: 40px;
     font-weight: bold; 
     text-align: center;
@@ -263,7 +267,8 @@ float: left;
     color: #fff;
     font-size: 13px;
     padding: 0px 16px;
-    margin: 26px 14px 50px 375px;
+    margin: 26px 0px 50px 0px;
+    width: 200px;
 }
 
 .howmany {
@@ -321,28 +326,156 @@ float: left;
     margin: 0px 100px 20px 380px;
 }
 
-    
-.statistica {
-    float: left;
+
+.statss{
     width: 100%;
-    padding-top: 150px;
+    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png)  50% 30%/72px 4px no-repeat , url(../img/fon2.jpg) center/1920px 499px no-repeat;
     }
 
 .container__stat{
-    float: left;
+    height: 400px;
     width: 100%;
-    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png)  50% 17%/72px 4px no-repeat , url(../img/fon2.jpg) center/cover no-repeat;
 }
 
+.img_stat1{
+    float: left;
+    text-align: center;
+    margin: 200px 0px 50px 350px;
+    width: 300px;
+}
+
+.img_stat1 li{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 37px 1px 15px 1px;
+    font-weight: bold;
+    
+}
+
+.img_stat2{
+    float: left;
+    text-align: center;
+    margin: 200px 0px 0px 0px;
+    width: 300px;
+}
+
+.img_stat2 li{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 40px 1px 15px 1px;
+    font-weight: bold; 
+}
+
+.img_stat3{
+    float: left;
+    text-align: center;
+    margin: 200px 1px 0px 0px;
+    width: 300px;
+}
+
+.img_stat3 li{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 35px 1px 15px 1px;
+    font-weight: bold; 
+}
+
+.img_stat4{
+    float: left;
+    text-align: center;
+    margin: 200px 1px 0px 0px;
+    width: 300px;
+}
+
+.img_stat4 li{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 30px 1px 15px 1px;
+    font-weight: bold; 
+}
 
 .container__stat h2{
     float: left;
-    text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;    
     text-transform: uppercase;
     color: #263244;
-    padding: 50px 780px;
-    height: 499px;
+    padding: 100px 750px 0px 750px;
+    width: 100%;
 }
 
+.otz{
+    height: 400px;
+    float: left;
+    
+}
+.container__otz{
+    float: left;
+    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png)  51% 40%/72px 4px no-repeat;
+}
+
+.container__otz h2{
+    float: left;
+    font-size: 35px;
+    font-weight: bold;    
+    text-transform: uppercase;
+    color: #263244;
+    padding: 100px 0px 0px 900px;
+}
+
+.container__otz img{
+    float: left;
+    margin: 70px 40px 40px 920px;
+}
+
+.container__otz h3{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;    
+    text-transform: uppercase;
+    color: #263244;
+    margin: 350px 0px 0px 600px;
+    width: 700px;
+}
+
+.container__otz span{
+
+    text-align: center;
+    font-size: 10px;
+    font-weight: normal;    
+    text-transform: uppercase;
+    padding-left: 00px;
+    color: #263244;
+}
+
+.container__otz p{
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;    
+    text-transform: uppercase;
+    padding: 30px 0px 0px 870px;
+    color: #263244;
+}
+
+
+.button img{
+    float: left;
+    padding: 60px 40px 0px 930px;
+    
+}
+
+.contacts {
+    float: left;
+    padding: 300px 700px;
+    text-align: center;
+}
+
+.container__contacts{
+    float: left;
+    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png)  51% 30%/72px 4px no-repeat;
+}

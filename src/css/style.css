@@ -326,12 +326,6 @@ float: left;
     margin: 0px 100px 20px 380px;
 }
 
-
-.statss{
-    width: 100%;
-    background: url(../img/../img/cherta.png)cherta  50% 30%/72px 4px no-repeat , url(../img/fon2.jpg) center/1920px 499px no-repeat;
-    }
-
 .container__stat{
     height: 400px;
     width: 100%;
@@ -442,16 +436,6 @@ float: left;
     width: 700px;
 }
 
-.container__otz span{
-
-    text-align: center;
-    font-size: 10px;
-    font-weight: normal;    
-    text-transform: uppercase;
-    padding-left: 00px;
-    color: #263244;
-}
-
 .container__otz p{
     float: left;
     text-align: center;
@@ -467,15 +451,4 @@ float: left;
     float: left;
     padding: 60px 40px 0px 930px;
     
-}
-
-.contacts {
-    float: left;
-    padding: 300px 700px;
-    text-align: center;
-}
-
-.container__contacts{
-    float: left;
-    background: url(../img/cherta.png)  51% 30%/72px 4px no-repeat;
 }

@@ -368,8 +368,6 @@ main{
     width: 100%;
 }
 
-.keyses{
-}
 .container__keys{
     float: left;
     width: 100%;
@@ -419,19 +417,20 @@ main{
 }
 
 .text {
-    margin: 0px 0px 0px 380px;
     color: #2c384a;
 }
 
 .text_p {
+    margin: 0px 0px 0px 380px;
     float: left;
     width: 200px;
-    height: 70px;
+    height: 80px;
     margin-right: 100px;
 }
 
 .text_p h4{
     font-size: 20px;
+    float: left;
     font-weight: bold;    
     text-transform: uppercase;
     color: #263244;
@@ -446,12 +445,33 @@ main{
     color: #263244;
 }
 
-.text_h5 p{
+.text_h5 span{
+    color: gainsboro;
+    background: #535a67;
+}
+
+.text_h5 h5{
+    padding-top: 3px;
+    margin: 0px 0px 0px 0px;
     font-size: 10px;
     font-weight: bold;    
     text-transform: uppercase;
-    color: #263244;
-    width: 1150px;
+    border: none;
+    border-radius: 5px;
+    width: 1550px;
+    color: #000;
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.text_h5 h5:active{
+    margin: 0px 600px 10px 800px;
+    width: 700px;
+    color: #000; 
+    display: inline-block;
+    transform: scale(1.4);
+    z-index: 1;
+    background: #fff;
 }
 
 .text input{
@@ -464,7 +484,7 @@ main{
     color: #fff;
     font-size: 13px;
     padding: 0px 16px;
-    margin: 26px 0px 50px 0px;
+    margin: 26px 0px 50px 380px;
     width: 200px;
     transition: active 0.2s, hover 3s;
 }
@@ -675,7 +695,7 @@ main{
     color: #263244;
     margin: 0px 0px 0px 600px;
     width: 700px;
-            transition: all 0.3s;
+    transition: all 0.3s;
     color: #000;
     transform: scale(1);
 }

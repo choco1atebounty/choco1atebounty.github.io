@@ -5,7 +5,7 @@ body{
 nav{
 width: 100%;
 height: 60px;
-background: #344051
+background: #344051;
 }
 
 .logo{
@@ -75,7 +75,7 @@ float: left;
 .container_about{
     width: 100%;
     text-align: center;
-    height: 100%%;
+    height: 100%;
 }
 
 .container_about h2{
@@ -188,12 +188,11 @@ float: left;
 }
 
 .keyses{
-    height: 990px;
 }
 .container__keys{
     float: left;
     width: 100%;
-    background: url(../img/cherta.png) 50% 13%/72px 4px no-repeat;
+    background: url(../img/cherta.png) 50% 11%/72px 4px no-repeat;
 }
 
 .keyses h2{
@@ -272,7 +271,6 @@ float: left;
 }
 
 .howmany {
-    float: left;
     width: 100%;
 }
 
@@ -326,15 +324,21 @@ float: left;
     margin: 0px 100px 20px 380px;
 }
 
+.statss {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background: url(../img/cherta.png) 50% 35%/auto no-repeat , url(../img/fon2.jpg) 90% 100%/cover no-repeat ;
+}
+
 .container__stat{
-    height: 400px;
     width: 100%;
 }
 
 .img_stat1{
     float: left;
     text-align: center;
-    margin: 200px 0px 50px 350px;
+    margin: 180px 0px 0px 350px;
     width: 300px;
 }
 
@@ -350,7 +354,7 @@ float: left;
 .img_stat2{
     float: left;
     text-align: center;
-    margin: 200px 0px 0px 0px;
+    margin: 180px 0px 0px 0px;
     width: 300px;
 }
 
@@ -365,7 +369,7 @@ float: left;
 .img_stat3{
     float: left;
     text-align: center;
-    margin: 200px 1px 0px 0px;
+    margin: 185px 1px 0px 0px;
     width: 300px;
 }
 
@@ -380,7 +384,7 @@ float: left;
 .img_stat4{
     float: left;
     text-align: center;
-    margin: 200px 1px 0px 0px;
+    margin: 185px 1px 0px 0px;
     width: 300px;
 }
 
@@ -404,7 +408,6 @@ float: left;
 
 .otz{
     height: 400px;
-    float: left;
     
 }
 .container__otz{
@@ -448,7 +451,185 @@ float: left;
 
 
 .button img{
-    float: left;
     padding: 60px 40px 0px 930px;
+}
+
+.contacts {
+    margin-top: 200px;
+    height: 860px;
+    background: url(../img/cherta.png) 50% 19%/auto no-repeat , url(../img/fon3.jpg) 90% 100%/cover no-repeat ;
+}
+
+.container_contacts {
+    width: 100%;
+}
+
+.container_contacts h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;    
+    text-transform: uppercase;
+    color: #fff;
+    padding: 100px 800px 0px 800px;
+    width: 100%;
+}
+
+.container_contacts  p{
+    margin: 60px 40px 0px 00px;
+    text-align: center;
+    color: fff;
+}
+
+.name{
+    text-align: center;
+    padding: 100px 10px 0px 10px;
+}
+
+.adres{
+    float: left;
+    text-align: center;
+    margin: 100px 0px 0px 600px;
+    width: 200px;
+}
+
+
+.adres li{
+    padding-top: 10px;
+    color: #fff;
+}
+
+.email {
+    float: left;
+    text-align: center;
+    margin: 100px 0px 0px 50px;
+    width: 200px;
+}
+
+.email li{
+    padding-top: 10px;
+    color: #fff;
+}
+
+.number{
+    float: left;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    width: 200px;
+}
+
+
+.number li{
+    padding-top: 10px;
+    color: #fff;
+}
+
+.container_contacts h3{
+    text-align: center;
+    margin: 200px 10px 0px 10px;
+    color: #fff;
+    font-size: 25px
+}
+
+.pole_name input{
+    float: left;
+    margin: 30px 0px 10px 590px;
+    height: 35px;
+    width: 350px;
+}
+
+.pole_email input{
+    margin: 30px 0px 10px 30px;
+    height: 35px;
+    width: 350px;
+}
+
+.container_contacts textarea {
+    margin: 0px 10px 10px 590px;
+    width: 730px;
+    height: 95px;
+    background: #fff;
+    opacity: 80%;
+}
+
+.contacts input{
+    background: #fff;
+    opacity: 80%;
+}
+
+.knopka input{    
+    height: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 30px 10px 10px 900px;
+}
+
+.kartinki_contacts{
+    padding: 66px 0px 10px 675px;
+}
+
+.facebook{
+    float: left;
+}
+
+.twit{
+    margin: 4px 0px 0px 60px;
+    float: left;
+}
+
+.ball {
+    float: left;
+    margin: 2px 0px 0px 61px;
+}
+
+.cat{
+    float: left;
+    margin: 2px 0px 0px 57px;
+}
+
+.inst {
+    float: left;
+    margin: 2px 0px 0px 61px;
+}
+
+.in {
+    float: left;
+    margin: 3px 0px 0px 43px;
+}
+
+.map{
+    width: 100%;
+    height: 350px;
+    background: url(../img/footermap.jpg)
+}
+
+.map input{
+    height: 50px;
+    width: 135px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #000;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 140px 10px 10px 900px;
+        font-weight: bold;    
+    text-transform: uppercase;
     
+}
+
+.footer {
+    width: 100%;
+}
+
+.container_footer{
+    background: #344051;
+    text-align: center;
+    height: 90px;
+    padding-top: 40px;
+    color: #fff;
 }

@@ -48,7 +48,6 @@ main{
 
 .menu{
     float: left;
-    padding-left: 432px;
 }
 
 .menu li{
@@ -89,9 +88,14 @@ main{
     background: url(../img/colorboy.png) 90% 100%/auto 85% no-repeat , url(../img/fon.jpg) center/cover no-repeat;
 }
 
+/*
+
+
+*/
+
 .title__container{
     float: left;
-    margin: 432px 0px 0px 404px;
+    margin-top: 400px;
     color: #2c384a;
     text-align: center;
     opacity: 0;
@@ -104,8 +108,10 @@ main{
 }
 
 .title__container h1{
-    font-size: 60px;
+    font-size: 62px;
     font-weight: bold;
+    flex-direction: column;
+    align-content: center;
 }
 
 .title__container h4{
@@ -199,9 +205,31 @@ main{
     
     to{
         opacity: 1;
-        margin-left: 404px;
+        margin-left: 250px;
     }
 }
+
+@media (max-width: 1413px){
+    .title__container{
+    width: 70%;
+    height: 100%;
+    margin-top: 500px;
+    }
+     
+    .title__container h1 {
+        font-size: 44px;
+        width: 400px;
+        display: inherit;
+    }
+    
+    .title__container input{
+        border: 1px solid #cddded;
+        background-color: #4289d3;
+        color: #fff
+    }
+    
+}
+
 
 
 .container_about_img{

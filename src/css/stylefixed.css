@@ -9,7 +9,7 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
-    z-index: 2;
+    z-index: 10;
 }
 
 .logo{
@@ -82,22 +82,18 @@ main{
     transform: scale(1.2);
 }
 
-.main{
+main{
     width: 100%;
     height: 100%;
     background: url(../img/colorboy.png) 90% 100%/auto 85% no-repeat , url(../img/fon.jpg) center/cover no-repeat;
 }
 
-/*
-
-
-*/
-
 .title__container{
     float: left;
-    margin-top: 400px;
     color: #2c384a;
     text-align: center;
+    width: 100%;
+    /*
     opacity: 0;
     -webkit-animation: titlemove 1s ease forwards;
     -o-animation: titlemove 1s ease forwards;
@@ -105,13 +101,12 @@ main{
     -webkit-animation-delay: 2.4s;
     -o-animation-delay: 2.4s;
     animation-delay: 2.4s;
+    */
 }
 
 .title__container h1{
     font-size: 62px;
     font-weight: bold;
-    flex-direction: column;
-    align-content: center;
 }
 
 .title__container h4{
@@ -133,6 +128,7 @@ main{
     transition: all 0.5s;
 }
 
+
 .title__container input:hover {
     display: inline-block;
     background: #a4b6ff;
@@ -144,6 +140,7 @@ main{
     background: #ffb048;
      transform: scale(0.5);
 }
+
 
 @keyframes comming{
     from{
@@ -205,31 +202,40 @@ main{
     
     to{
         opacity: 1;
-        margin-left: 250px;
+        margin-left: 0px;
     }
 }
 
-@media (max-width: 1413px){
-    .title__container{
-    width: 70%;
-    height: 100%;
-    margin-top: 500px;
+@media (max-width: 991px){
+    .title__container, .title__container h4, .title__container input {
+        color: bisque;
+        position: relative;
+        z-index: 3;
     }
-     
+    
     .title__container h1 {
-        font-size: 44px;
-        width: 400px;
-        display: inherit;
+        margin-top: 60%;
     }
     
     .title__container input{
-        border: 1px solid #cddded;
-        background-color: #4289d3;
-        color: #fff
+        background: #83e2de;
+    }
+    
+    .main{
+        position: relative;
+    }
+    
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.2)
     }
     
 }
-
 
 
 .container_about_img{
@@ -249,17 +255,17 @@ main{
     font-weight: bold;
     text-transform: uppercase;
     color: #263244;
-    padding: 109px 448px 30px 448px;
+    padding-top: 50px;
     
 }
 
 .container_about p{
     width: 739px;
  text-align: left;
-    margin: 10px 597px 44px 597px;
+    margin-left: 400px;
 }
 
-.container_about input{
+.aboutme input{
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -268,20 +274,28 @@ main{
     color: #6d7682;
     font-size: 13px;
     padding: 0px 16px;
-    margin: 0px 14px 50px 14px;
+    margin: 20px 14px 50px 14px;
     transition: all 0.5s;
 }
 
-.container_about input:hover {
+.aboutme input:hover {
     display: inline-block;
     background: #a4b6ff;
      transform: scale(1.1);
 }
 
-.container_about input:active {
+.aboutme input:active {
     display: inline-block;
     background: #ffb048;
      transform: scale(0.5);
+}
+
+@media (max-width: 991px){
+    
+    .container_about p{
+        margin-left: 10%;
+    }
+    
 }
 
 .ican{
@@ -297,7 +311,6 @@ main{
 .img_ican1{
     float: left;
     text-align: center;
-    margin: 200px 0px 50px 230px;
     width: 300px;
     transition: all 0.5s;
     color: #000;
@@ -321,7 +334,6 @@ main{
 .img_ican2{
     float: left;
     text-align: center;
-    margin: 200px 0px 0px 83px;
     width: 300px;
     transition: all 0.5s;
     color: #000;
@@ -344,7 +356,6 @@ main{
 .img_ican3{
     float: left;
     text-align: center;
-    margin: 200px 1px 0px 83px;
     width: 300px;
     transition: all 0.5s;
     color: #000;
@@ -367,7 +378,6 @@ main{
 .img_ican4{
     float: left;
     text-align: center;
-    margin: 200px 1px 0px 83px;
     width: 300px;
     transition: all 0.5s;
     color: #000;
@@ -388,12 +398,12 @@ main{
 }
 
 .container__ican h2{
+    text-align: center;
     float: left;
     font-size: 40px;
     font-weight: bold;    
     text-transform: uppercase;
     color: #263244;
-    padding: 100px 830px 0px 830px;
     width: 100%;
 }
 
@@ -545,6 +555,7 @@ main{
 }
 
 .container__how h3{
+    float: left;
     font-size: 20px;
     font-weight: bold;    
     text-transform: uppercase;

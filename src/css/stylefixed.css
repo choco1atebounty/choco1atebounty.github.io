@@ -526,6 +526,21 @@ main{
 }
 
 
+.calc input{
+        height: 40px;
+        font-weight: bold; 
+        text-align: center;
+        border: none;
+        background: #63b5ae;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 13px;
+        padding: 0px 16px;
+        transition: active 0.2s, hover 3s;
+}
+
+
+
 .statss {
     background: url(../img/cherta.png) 50% 35%/auto no-repeat , url(../img/fon2.jpg) 90% 100%/cover no-repeat ;
     background-attachment: fixed;

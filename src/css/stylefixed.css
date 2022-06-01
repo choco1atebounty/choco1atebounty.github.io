@@ -210,7 +210,7 @@ main{
 
 @media (max-width: 991px){
     .title__container, .title__container h4, .title__container input {
-        color: bisque;
+        color: white;
         position: relative;
         z-index: 3;
     }
@@ -220,7 +220,7 @@ main{
     }
     
     .title__container input{
-        background: #83e2de;
+        background: #4c6968;
     }
     
     .main{
@@ -243,7 +243,7 @@ main{
 .container_about_img{
     width: 100%;
     height: 300px;
-    background: url(../img/cherta.png) center 0%/72px 4px no-repeat , url(../img/boy.png) center/10% no-repeat;
+    background: url(../img/cherta.png) center 0%/72px 4px no-repeat;
 }
 
 
@@ -280,22 +280,9 @@ main{
     background: #ffb048;
      transform: scale(0.5);
 }
-
-@media (max-width: 991px){
     
-    .container_about p{
-        margin-left: 10%;
-    }
-    
-}
-
-.ican{
-    width: 100%;
-    }
 
 .container__ican{
-    float: left;
-    width: 100%;
     background: url(../img/cherta.png)  50% 30%/72px 4px no-repeat , url(../img/kartfon.jpg) center/1920px 523px no-repeat;
 }
 
@@ -304,12 +291,12 @@ main{
     text-align: center;
     transition: all 0.5s;
     color: #000;
-    transform: scale(1);
+    transform: scale(0.75);
 }
 
 .img_ican1:hover{
     display: inline-block;
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 .img_ican1 li{
@@ -325,12 +312,12 @@ main{
     text-align: center;
     transition: all 0.5s;
     color: #000;
-    transform: scale(1);
+    transform: scale(0.75);
 }
 
 .img_ican2:hover{
     display: inline-block;
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 .img_ican2 li{
@@ -345,12 +332,12 @@ main{
     text-align: center;
     transition: all 0.5s;
     color: #000;
-    transform: scale(1);
+    transform: scale(0.75);
 }
 
 .img_ican3:hover{
     display: inline-block;
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 .img_ican3 li{
@@ -365,12 +352,12 @@ main{
     text-align: center;
     transition: all 0.5s;
     color: #000;
-    transform: scale(1);
+    transform: scale(0.75);
 }
 
 .img_ican4:hover{
     display: inline-block;
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 .img_ican4 li{
@@ -436,46 +423,13 @@ main{
 
 .text_p h4{
     font-size: 20px;
-    float: left;
-    font-weight: bold;    
-    text-transform: uppercase;
     color: #263244;
-    width: 200px;
 }
 
 
 .text_h5 h4{
-    font-size: 20px;
-    font-weight: bold;    
-    text-transform: uppercase;
+    font-size: 20px;  
     color: #263244;
-}
-
-.text_h5 span{
-    color: gainsboro;
-    background: #535a67;
-}
-
-.text_h5 h5{
-    padding-top: 5px;
-    margin: 0px 0px 0px 80px;
-    font-size: 10px;
-    font-weight: bold;    
-    text-transform: uppercase;
-    border: none;
-    border-radius: 5px;
-    color: #000;
-    transition: all 0.3s;
-    transform: scale(1);
-}
-
-.text_h5 h5:active{
-    width: 700px;
-    color: #000; 
-    display: inline-block;
-    transform: scale(1.4);
-    z-index: 1;
-    background: #fff;
 }
 
 .text input{

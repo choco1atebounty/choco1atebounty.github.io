@@ -11,18 +11,18 @@ let tseni = {
 
     tseniVerstka:
     [
-        ver1 = ["Адаптивная", "Фиксированная", "Резиновая"]
+        ver1 = ["1 - Адаптивная", " 2 - Фиксированная", " 3 - Резиновая"]
     ],
 
     tseniSait: 
     [
-        ver3 = ["Сайт-визитка", "Форум", "Интернет-магазин"]
+        ver3 = ["1 - Сайт-визитка", " 2 - Форум", " 3 - Интернет-магазин"]
     ],
 
 
     tseniDesign: 
     [
-    ver5 = ["Свой макет", "Новый макет"]
+    ver5 = ["1 - Свой макет", " 2 - Новый макет"]
     ],
 
 }
@@ -72,42 +72,42 @@ ver5[1] = 6666
 let c, v, b;
 
 {
-    if(verstka12 == "Адаптивная")
+    if(verstka12 == 1)
 {
     c = ver1[0]
 }
 
-if(verstka12 == "Фиксированная")
+if(verstka12 == 2)
 {
     c = ver1[1]
 }
 
-if(verstka12 == "Резиновая")
+if(verstka12 == 3)
 {
     c = ver1[2]
 }
 
-if(nameSait == "Сайт-визитка")
+if(nameSait == 1)
 {
     v = ver3[0]
 }
 
-if(nameSait == "Форум")
+if(nameSait == 2)
 {
     v = ver3[1]
 }
 
-if(nameSait == "Интернет-магазин")
+if(nameSait == 3)
 {
     v = ver3[2]
 }
 
-if(nameDesign == "Свой макет")
+if(nameDesign == 1)
 {
     b = ver5[0]
 }
 
-if(nameDesign == "Новый макет")
+if(nameDesign == 2)
 {
     b = ver5[1]
 }
@@ -123,42 +123,42 @@ let z, y, x;
 
 // Сроки
 {
-if(verstka12 == "Адаптивная")
+if(verstka12 == 1)
 {
     z = ver2[0]
 }
 
-if(verstka12 == "Фиксированная")
+if(verstka12 == 2)
 {
     z = ver2[1]
 }
 
-if(verstka12 == "Резиновая")
+if(verstka12 == 3)
 {
     z = ver2[2]
 }
 
-if(nameSait == "Сайт-визитка")
+if(nameSait == 1)
 {
     y = ver2[0]
 }
 
-if(nameSait == "Форум")
+if(nameSait == 2)
 {
     y = ver2[1]
 }
 
-if(nameSait == "Интернет-магазин")
+if(nameSait == 3)
 {
     y = ver2[2]
 }
 
-if(nameDesign == "Свой макет")
+if(nameDesign == 1)
 {
     x = ver2[0]
 }
 
-if(nameDesign == "Новый макет")
+if(nameDesign == 2)
 {
     x = ver2[1]
 }

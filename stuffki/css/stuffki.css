@@ -123,7 +123,7 @@ nav {
 }
 
 .first_right_container {
-  background: url(/img/man1.png) 100% 70%/auto no-repeat, #1c1c1c;
+  background: url(../img/man1.png) 100% 70%/auto no-repeat, #1c1c1c;
   height: 410px;
   transition: all 0.5s;
   transform: scale(0.95);
@@ -136,14 +136,14 @@ nav {
 }
 
 .second_right_container {
-  background: url(/img/mans2.png) 100% 70%/auto no-repeat, #303030;
+  background: url(../img/mans2.png) 100% 70%/auto no-repeat, #303030;
   transition: all 0.5s;
   height: 410px;
   transform: scale(0.95);
 }
 
 .third_container {
-background: url(/img/fon1.jpg) center / 90% no-repeat;
+background: url(../img/fon1.jpg) center / 90% no-repeat;
 transition: all 0.5s;
 height: 410px;
 width: 100%;
@@ -178,7 +178,7 @@ width: 100%;
 }
 
 .block5_block5 {
-  background: url(../img/polosa.jpg) 50% 30%/auto no-repeat ,url(/img/fon2.jpg) center / 86% no-repeat;
+  background: url(../img/polosa.jpg) 50% 30%/auto no-repeat ,url(../img/fon2.jpg) center / 86% no-repeat;
   width: 100%;
 }
 
